@@ -1,0 +1,1 @@
+//alert("esse alerta esta vindo de outro arquivo");
