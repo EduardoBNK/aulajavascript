@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições</title>
+</head>
+
+<body>
+    <script>
+
+        /* sala = 9
+         professor = prompt("O professor vai estar presente?")
+ 
+         console.log("professor")
+         if (professor == "s") {
+             alert("hj vai ter aula " + sala)
+ 
+ 
+             alunos = prompt("Digite a quantidade de alunos: ")
+             if (alunos > 10) {
+                 alert("Mais da metade veio á aula")
+             }
+             else if (alunos > 5) {
+                 alert("Veio poucos alunos")
+             }
+             else {
+                 alert("Poucos alunos,podem cancelar a aula")
+             }
+         } else {
+             alert("Sem aula, o professor não veio")
+         }*/
+
+
+        /*
+        nota = prompt("Digite a nota do aluno: ")
+        if (nota >= 8) {
+            alert("Passou de ano.")
+        }
+        else if (nota > 5) {
+            alert("Ele pode fazer recuperação.")
+        }
+        else {
+            alert("Reprovado")
+        }
+        */
+
+        // || (OU) = pelo menos uma condição é verdadeira.
+        //&& (E) = todas as condições devem ser verdadeiras.
+        //presença > 70% 
+
+        nota = prompt("Digite a nota do aluno: ")
+        presenca = prompt("Digite a porcentagem")
+        if (nota >= 8 && presenca >= 70) 
+            alert("Passou de ano.")
+            else if(nota > 5 && presenca >= 70){
+            alert("Pode fazer a recuperação.")
+            }
+            else {
+                alert("Reprovado")
+            }
+
+
+
+
+    </script>
+</body>
+
+</html>
